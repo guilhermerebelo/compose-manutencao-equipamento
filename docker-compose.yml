@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+    api:
+        container_name: manutencaoequipamento
+        image: guilhermerebelo/manutencaoequipamento:latest
+        ports:
+            - 8080:8080
